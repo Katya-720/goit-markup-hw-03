@@ -1,0 +1,131 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #fff;
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.32px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/** header **/
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  color: #4d5ae5;
+  text-transform: uppercase;
+}
+
+.logo-color-header {
+  color: #2e2f42;
+}
+
+.header-link {
+  color: #2e2f42;
+  font-weight: 500;
+  letter-spacing: 0.32px;
+}
+
+.header-contacts {
+  font-style: normal;
+}
+
+.header-contact {
+  color: inherit;
+  letter-spacing: 0.32px;
+  font-style: normal;
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-contact:hover,
+.header-contact:focus {
+  color: #404bbf;
+}
+
+/** Main **/
+
+/** Section-header **/
+
+.section-head {
+  background-color: #2e2f42;
+}
+
+.head-title {
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+
+.head-button {
+  color: #fff;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+  line-height: inherit;
+}
+
+.head-button:hover,
+.head-button:focus {
+  background-color: #404bbf;
+}
+
+/** Section-Advantages **/
+
+.section-head-title {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.section-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+/** Section-team **/
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-card {
+  background-color: #ffffff;
+}
+
+/** Section-portfolio **/
+
+/** Footer **/
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.logo-color-footer {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
+}
