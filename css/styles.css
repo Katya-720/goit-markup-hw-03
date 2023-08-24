@@ -92,11 +92,12 @@ img {
 .header-link {
   color: var(--second-text-color);
   font-weight: 500;
+  padding: 24px 0;
 }
 
 .header-contacts-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .header-contacts {
@@ -213,6 +214,7 @@ img {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
 
 .team-card {
@@ -257,7 +259,7 @@ img {
 }
 
 .footer-logo {
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
 }
 
