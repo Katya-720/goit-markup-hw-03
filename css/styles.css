@@ -49,12 +49,7 @@ img {
 .container {
   max-width: 1158px;
   margin: 0 auto;
-  /**
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: 0;
-  margin-right: 0;
-  **/
+  padding: 0 15px;
 }
 
 /** header **/
@@ -71,6 +66,7 @@ img {
 
 .header-nav {
   display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -90,7 +86,7 @@ img {
 
 .header-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .header-link {
@@ -147,12 +143,6 @@ img {
 
 .section-hero {
   background-color: var(--second-text-color);
-}
-
-.hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 188px 0;
 }
 
@@ -162,11 +152,13 @@ img {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  margin-bottom: 48px;
-  width: 496px;
+  margin: 0 auto 48px;
+  max-width: 496px;
 }
 
 .hero-button {
+  display: block;
+  margin: 0 auto;
   color: var(--primari-background-color);
   background-color: var(--color-logo);
   font-weight: 500;
@@ -177,6 +169,8 @@ img {
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  min-width: 169px;
+  height: 56px;
 }
 
 .hero-button:hover,
@@ -188,7 +182,7 @@ img {
 
 .advantages {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .visually-hidden {
@@ -204,6 +198,10 @@ img {
   overflow: hidden;
 }
 
+.advantages-item {
+  width: calc((100% - 72px) / 4);
+}
+
 /** Section-team **/
 
 .team-background-color {
@@ -214,8 +212,7 @@ img {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
+  gap: 24px;
 }
 
 .team-card {
@@ -223,6 +220,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -230,7 +228,7 @@ img {
 }
 
 .team-card-text {
-  margin: 32px 0;
+  padding: 32px 0;
   text-align: center;
 }
 
@@ -240,6 +238,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-card-text {
@@ -247,6 +246,7 @@ img {
   flex-direction: column;
   padding: 32px 16px;
   border: 1px solid var(--border);
+  border-top: none;
 }
 
 /** Footer **/
@@ -256,6 +256,11 @@ img {
   padding: 100px 0;
 }
 
+.footer-logo {
+  display: block;
+  margin-bottom: 16px;
+}
+
 .logo-color-footer {
   color: var(--second-background-color);
 }
@@ -263,5 +268,4 @@ img {
 .footer-text {
   color: var(--second-background-color);
   width: 264px;
-  margin-top: 18px;
 }
