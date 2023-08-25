@@ -36,6 +36,8 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .list {
@@ -48,8 +50,8 @@ img {
 
 .container {
   max-width: 1158px;
-  margin: 0 auto;
   padding: 0 15px;
+  margin: 0 auto;
 }
 
 /** header **/
@@ -209,12 +211,11 @@ img {
   background-color: var(--second-background-color);
 }
 
-.section-cards {
+.team-cards {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  /** gap: 24px;
-  row-gap: 48px; **/
+  gap: 24px;
 }
 
 .team-card {
@@ -227,11 +228,6 @@ img {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  margin-right: 24px;
-}
-
-.team-card-last {
-  margin-right: 0;
 }
 
 .team-card-text {
@@ -240,6 +236,14 @@ img {
 }
 
 /** Section-portfolio **/
+
+.portfolio-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
+}
 
 .portfolio-card {
   display: flex;
