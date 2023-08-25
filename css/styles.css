@@ -88,12 +88,13 @@ img {
 .header-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .header-link {
   color: var(--second-text-color);
   font-weight: 500;
+  padding: 24px 0;
+  display: block;
 }
 
 .header-contacts {
@@ -103,12 +104,13 @@ img {
 .header-contacts-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .header-contact {
   color: inherit;
   font-style: normal;
+  padding: 24px 0;
+  display: block;
 }
 
 .header-link:hover,
