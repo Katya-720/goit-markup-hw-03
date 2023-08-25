@@ -63,7 +63,6 @@ img {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 26px 0;
 }
 
 .header-nav {
@@ -89,12 +88,12 @@ img {
 .header-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .header-link {
   color: var(--second-text-color);
   font-weight: 500;
-  padding: 24px 0;
 }
 
 .header-contacts-list {
@@ -104,6 +103,7 @@ img {
 
 .header-contacts {
   font-style: normal;
+  padding: 24px 0;
 }
 
 .header-contact {
