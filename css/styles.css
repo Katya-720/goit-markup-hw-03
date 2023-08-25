@@ -96,13 +96,13 @@ img {
   font-weight: 500;
 }
 
+.header-contacts {
+  font-style: normal;
+}
+
 .header-contacts-list {
   display: flex;
   gap: 40px;
-}
-
-.header-contacts {
-  font-style: normal;
   padding: 24px 0;
 }
 
